@@ -1,41 +1,36 @@
-# Website
+# 办公软件精通指南
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+一套系统化的学习站点,帮助职场人士从入门到精通办公软件,覆盖 Word/Excel/PPT、协作工具、自动化效率到行业实战与资源库,共 90 章节。
 
-## Installation
+## 适用人群
+- 职场新人: 快速补齐办公软件必备技能
+- 进阶用户: 追求效率提升与高级功能
+- 专业人士: 需要自动化、数据分析和行业化案例
+- 团队管理者: 建立标准化流程与培训体系
 
-```bash
-yarn
-```
+## 内容架构(10 大板块)
+1. 基础认知(01-05): 办公生态、选择策略、学习方法、能力模型
+2. Word 精通(06-15): 样式与模板、长文档、图文混排、协同与自动化
+3. Excel 数据分析(16-30): 函数、透视表、Power Query/Pivot、VBA、行业案例
+4. PowerPoint 设计(31-40): 设计原则、母版、版式、数据可视化、动画与演示
+5. 邮件与沟通(41-45): Outlook 管理、邮件礼仪、会议与任务、自动化处理
+6. 协作与云办公(46-55): Google Workspace、Microsoft 365、企业微信/钉钉/飞书、项目管理与远程办公
+7. 效率与自动化(56-65): 快捷键、插件、RPA、Python 办公、文件与知识管理、个人效率系统
+8. 行业实战(66-75): 财务、HR、市场、销售、项目、行政、教育、法务等场景化解决方案
+9. 进阶专题(76-85): 数据安全、版权、多语言、移动/跨平台办公、AI 助力、认证与能力提升
+10. 资源与附录(86-90): 快捷键与函数速查、模板库、学习社区、趋势洞察
 
-## Local Development
+## 推荐学习路径
+- 职场新人(1-2 个月): 先看基础认知 → Word/Excel/PPT 核心章节 → 完成日常工作流
+- 进阶提升(2-3 个月): Word 长文档 + Excel 数据分析 + PPT 商业设计 → 协作工具与效率插件
+- 专业人士(3-6 个月): VBA/RPA/Python 自动化 → 行业实战项目 → 进阶专题与认证
+- 岗位定制: 根据财务/HR/市场/销售等路线选择对应章节并结合实战练习
 
-```bash
-yarn start
-```
+## 使用建议
+- 按学习路径循序渐进,每周完成 2-3 章并配合实战项目
+- 遇到问题先查对应章节与速查表,再到社区或资源库扩展
+- 建立个人模板与知识库,持续跟踪软件新功能与版本更新
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 更新节奏
+- v1.0.0: 完成 90 章框架并发布部分核心章节(01-07,16,20,22,31,56)
+- 持续迭代: 补充章节内容、案例文件、模板与视频教程
