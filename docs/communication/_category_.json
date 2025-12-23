@@ -1,0 +1,10 @@
+{
+  "label": "沟通与时间管理",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "沟通与时间管理",
+    "description": "Outlook 邮件、日历、任务管理与自动化处理的全流程最佳实践。",
+    "slug": "/communication"
+  }
+}

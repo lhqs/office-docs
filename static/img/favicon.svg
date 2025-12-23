@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="faviGrad" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F73FF" />
+      <stop offset="1" stop-color="#6AE3C9" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="12" width="36" height="44" rx="9" fill="#0F172A" opacity="0.85" />
+  <rect x="16" y="8" width="40" height="44" rx="10" fill="url(#faviGrad)" />
+  <rect x="20" y="22" width="30" height="4" rx="2" fill="#FFFFFF" opacity="0.85" />
+  <rect x="20" y="30" width="20" height="3" rx="1.5" fill="#FFFFFF" opacity="0.75" />
+  <path d="M22 38C22 35.7909 23.7909 34 26 34H42C44.2091 34 46 35.7909 46 38V43C46 45.2091 44.2091 47 42 47H26C23.7909 47 22 45.2091 22 43V38Z" fill="#A5B4FC" />
+  <path d="M26 41L31 46L42 35" stroke="#0B1021" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="46" cy="18" r="6" fill="#0EA5E9" />
+  <circle cx="46" cy="18" r="3" fill="#ECFEFF" />
+</svg>

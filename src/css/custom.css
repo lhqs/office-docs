@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Noto Sans SC', 'Space Grotesk', 'Segoe UI', system-ui,
+    -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Space Grotesk', 'Noto Sans SC', 'Segoe UI',
+    system-ui, sans-serif;
+  --ifm-color-primary: #2c7df0;
+  --ifm-color-primary-dark: #236de0;
+  --ifm-color-primary-darker: #1f64d2;
+  --ifm-color-primary-darkest: #174fb0;
+  --ifm-color-primary-light: #4b92f4;
+  --ifm-color-primary-lighter: #6ba7f7;
+  --ifm-color-primary-lightest: #a0c6fb;
+  --ifm-background-color: #fafbfd;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.7);
+  --ifm-navbar-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  --ifm-link-hover-decoration: none;
+  --ifm-global-shadow-lw: 0 10px 40px rgba(23, 48, 94, 0.08);
+  --ifm-code-font-size: 94%;
+  --surface-card: rgba(255, 255, 255, 0.8);
+  --surface-border: rgba(226, 232, 240, 0.8);
+  --gradient-1: linear-gradient(135deg, #2c7df0 0%, #1a64d2 100%);
+  --gradient-2: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --page-background: #fafbfd;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #6cb7ff;
+  --ifm-color-primary-dark: #5a9fe0;
+  --ifm-color-primary-darker: #4d8dc7;
+  --ifm-color-primary-darkest: #3c709b;
+  --ifm-color-primary-light: #8bc8ff;
+  --ifm-color-primary-lighter: #a8d6ff;
+  --ifm-color-primary-lightest: #cbe7ff;
+  --ifm-background-color: #0f172a;
+  --ifm-navbar-background-color: rgba(15, 23, 42, 0.7);
+  --ifm-navbar-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+  --surface-card: rgba(30, 41, 59, 0.6);
+  --surface-border: rgba(51, 65, 85, 0.8);
+  --gradient-1: linear-gradient(135deg, #6cb7ff 0%, #4be0bf 100%);
+  --gradient-2: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --page-background: #0f172a;
+}
+
+html,
+body {
+  background: var(--page-background);
+  color: #1a1a1a;
+}
+
+.main-wrapper {
+  background: var(--page-background);
+  min-height: 100vh;
+}
+
+body {
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'ss01';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme='dark'] body {
+  color: #e2e8f0;
+}
+
+.navbar {
+  backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.navbar__title {
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+.hero__title,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: -0.02em;
+}
+
+a {
+  transition: color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+a:hover {
+  transform: translateY(-1px);
+}
+
+.card,
+.theme-doc-markdown mark,
+.markdown > pre,
+.docCard {
+  border: 1px solid var(--surface-border);
+  box-shadow: 0 18px 60px rgba(23, 48, 94, 0.08);
+}
+
+.card {
+  background: var(--surface-card);
+  backdrop-filter: blur(6px);
+}
+
+.footer {
+  background: var(--gradient-2);
+  color: #e5edff;
+}
+
+.footer .footer__title {
+  color: #cbd5f5;
+}
+
+.footer a {
+  color: #e8f1ff;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.theme-doc-markdown h2 {
+  margin-top: 2rem;
+  border-left: 4px solid var(--ifm-color-primary);
+  padding-left: 0.75rem;
+}
+
+.theme-doc-markdown h3 {
+  margin-top: 1.25rem;
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--surface-border);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(6px);
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  background: rgba(13, 17, 28, 0.7);
+}
+
+.button.button--primary {
+  background: var(--gradient-1);
+  border: none;
+  box-shadow: 0 8px 24px rgba(44, 125, 240, 0.25);
+  font-weight: 600;
+}
+
+.button.button--primary:hover {
+  box-shadow: 0 12px 32px rgba(44, 125, 240, 0.35);
+}
+
+.button.button--secondary {
+  border: 1px solid rgba(44, 125, 240, 0.2);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  font-weight: 600;
+}
+
+.button.button--secondary:hover {
+  border-color: rgba(44, 125, 240, 0.4);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .button.button--secondary {
+  background: rgba(30, 41, 59, 0.6);
+  border-color: rgba(108, 183, 255, 0.3);
+}
+
+[data-theme='dark'] .button.button--secondary:hover {
+  background: rgba(30, 41, 59, 0.8);
+  border-color: rgba(108, 183, 255, 0.5);
+}
+
+.tagline {
+  color: #334155;
+}
+
+[data-theme='dark'] .tagline {
+  color: #cbd5e1;
+}

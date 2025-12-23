@@ -1,0 +1,68 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="80" y1="40" x2="1120" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A" />
+      <stop offset="1" stop-color="#1D2B47" />
+    </linearGradient>
+    <linearGradient id="cardAccent" x1="280" y1="120" x2="960" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F73FF" />
+      <stop offset="1" stop-color="#6AE3C9" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#cardBg)" />
+  <circle cx="1050" cy="90" r="220" fill="url(#cardAccent)" opacity="0.14" />
+  <circle cx="160" cy="520" r="180" fill="url(#cardAccent)" opacity="0.12" />
+
+  <g filter="url(#cardShadow)">
+    <rect x="720" y="130" width="250" height="320" rx="28" fill="#111C32" stroke="#1F73FF" stroke-width="1.5" opacity="0.9" />
+    <rect x="760" y="110" width="260" height="320" rx="28" fill="url(#cardAccent)" />
+    <rect x="792" y="170" width="180" height="22" rx="11" fill="#FFFFFF" opacity="0.9" />
+    <rect x="792" y="210" width="140" height="12" rx="6" fill="#FFFFFF" opacity="0.75" />
+    <rect x="792" y="235" width="172" height="12" rx="6" fill="#FFFFFF" opacity="0.75" />
+    <rect x="780" y="275" width="188" height="90" rx="18" fill="#A5B4FC" opacity="0.96" />
+    <path d="M802 320L842 360L926 276" stroke="#0B1021" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="990" cy="162" r="18" fill="#0EA5E9" />
+    <circle cx="990" cy="162" r="8" fill="#ECFEFF" />
+  </g>
+
+  <text x="100" y="210" fill="#B7C7E7" font-family="Space Grotesk, 'Noto Sans SC', sans-serif" font-size="18" letter-spacing="0.3em">
+    OFFICE MASTERY
+  </text>
+  <text x="100" y="280" fill="#FFFFFF" font-family="Space Grotesk, 'Noto Sans SC', sans-serif" font-size="52" font-weight="700">
+    办公软件精通指南
+  </text>
+  <text x="100" y="330" fill="#9FB3D6" font-family="Noto Sans SC, 'Space Grotesk', sans-serif" font-size="24">
+    高阶技巧 · 自动化 · 协作设计
+  </text>
+
+  <text x="100" y="380" fill="#E2E8F0" font-family="Noto Sans SC, 'Space Grotesk', sans-serif" font-size="18">
+    9 大模块 / 90 章节，覆盖 Word、Excel、PPT、协同工具与自动化。
+  </text>
+  <text x="100" y="410" fill="#E2E8F0" font-family="Noto Sans SC, 'Space Grotesk', sans-serif" font-size="18">
+    以真实业务场景组织内容，提供速查、模板与可复用工作流。
+  </text>
+
+  <g transform="translate(100, 450)">
+    <rect width="220" height="58" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(106, 227, 201, 0.4)" />
+    <text x="20" y="36" fill="#D1E9FF" font-family="Noto Sans SC, 'Space Grotesk', sans-serif" font-size="18" font-weight="700">
+      系统化学习路径
+    </text>
+  </g>
+  <g transform="translate(340, 450)">
+    <rect width="220" height="58" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(31, 115, 255, 0.4)" />
+    <text x="20" y="36" fill="#D1E9FF" font-family="Noto Sans SC, 'Space Grotesk', sans-serif" font-size="18" font-weight="700">
+      自动化 · AI · 模板
+    </text>
+  </g>
+
+  <filter id="cardShadow" x="700" y="90" width="320" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+    <feGaussianBlur in="BackgroundImageFix" stdDeviation="18" />
+    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur" />
+    <feOffset dy="12" />
+    <feGaussianBlur stdDeviation="18" />
+    <feColorMatrix type="matrix" values="0 0 0 0 0.07 0 0 0 0 0.14 0 0 0 0 0.3 0 0 0 0.45 0" />
+    <feBlend mode="normal" in2="effect1_backgroundBlur" result="effect2_dropShadow" />
+    <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape" />
+  </filter>
+</svg>

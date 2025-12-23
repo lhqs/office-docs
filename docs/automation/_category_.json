@@ -1,0 +1,10 @@
+{
+  "label": "效率与自动化",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "title": "效率与自动化",
+    "description": "快捷键、插件、RPA、Python 与个人效率系统，构建自动化思维。",
+    "slug": "/automation"
+  }
+}
